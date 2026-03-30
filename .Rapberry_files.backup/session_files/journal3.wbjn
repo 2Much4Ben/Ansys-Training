@@ -1,0 +1,212 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.172")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry1.Exit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="PBT-GF30")
+matlProp1 = material1.GetProperty(Name="Coefficient of Thermal Expansion")
+matlProp1.SetVariableProperty(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    VariableName="Coefficient of Thermal Expansion",
+    Property="Unit",
+    Value="K^-1")
+matlProp1.SetVariableProperty(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    VariableName="Coefficient of Thermal Expansion",
+    Property="Unit",
+    Value="C^-1")
+matlProp1.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Index=-1,
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["1.8 [C^-1]"]])
+matlProp1.SetVariableProperty(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    VariableName="Coefficient of Thermal Expansion",
+    Property="Unit",
+    Value="K^-1")
+matlProp1.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["1.8 [K^-1]"]])
+matlProp1.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["1.8E-05 [K^-1]"]])
+matlProp1.SetVariableProperty(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    VariableName="Coefficient of Thermal Expansion",
+    Property="Unit",
+    Value="C^-1")
+matlProp1.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["1.8E-05 [C^-1]"]])
+matlProp2 = material1.GetProperty(Name="Elasticity")
+matlProp2.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="GPa")
+matlProp2.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["8E-09 [GPa]"]])
+matlProp2.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["8 [GPa]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)
+matl1 = material1.Duplicate(TargetContainer=engineeringData1)
+matl1.DisplayName = "PPS GF-40"
+matl1.Refresh(Source="C:/Users/user/Desktop/Ansys-Training/Rapberry_files/dp0/SYS/ENGD/EngineeringData.xml")
+favorites1 = EngData.LoadFavoriteItems()
+EngData.EnableFilter(Enable=False)
+matl1.Delete()
+matl2 = material1.Duplicate(TargetContainer=engineeringData1)
+matl2.DisplayName = "PBT-GF40"
+matlProp3 = matl2.GetProperty(Name="Density")
+matlProp3.SetData(
+    Variables=["Density"],
+    Values=[["1.5 [g cm^-3]"]])
+matlProp4 = matl2.GetProperty(Name="Coefficient of Thermal Expansion")
+matlProp4.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["0.00025 [C^-1]"]])
+matlProp5 = matl2.GetProperty(Name="Elasticity")
+matlProp5.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["15 [GPa]"]])
+Save(Overwrite=True)
+matl3 = matl2.Duplicate(TargetContainer=engineeringData1)
+matl3.DisplayName = "SAC305"
+matlProp6 = matl3.GetProperty(Name="Density")
+matlProp6.SetData(
+    Variables=["Density"],
+    Values=[["7.5 [g cm^-3]"]])
+matlProp6.SetData(
+    Variables=["Density"],
+    Values=[["7.4 [g cm^-3]"]])
+matlProp7 = matl3.GetProperty(Name="Elasticity")
+matlProp7.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["38.99 [GPa]"]])
+matlProp7.SetData(
+    Variables=["Poisson's Ratio"],
+    Values=[["0.4"]])
+matlProp8 = matl3.GetProperty(Name="Coefficient of Thermal Expansion")
+matlProp8.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["0 [C^-1]"]])
+matlProp8.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Isotropic"},
+    Variables=["Coefficient of Thermal Expansion"],
+    Values=[["2.22E-05 [C^-1]"]])
+matl4 = matl3.Duplicate(TargetContainer=engineeringData1)
+matl4.DisplayName = "FR40"
+matlProp9 = matl4.GetProperty(Name="Density")
+matlProp9.SetData(
+    Variables=["Density"],
+    Values=[["1.84 [g cm^-3]"]])
+matlProp10 = matl4.GetProperty(Name="Elasticity")
+matlProp10.SetQualifier(
+    Qualifier="Derive from",
+    Value="Shear Modulus and Poisson's Ratio")
+matlProp10.SetQualifier(
+    Qualifier="Derive from",
+    Value="Young's Modulus and Poisson's Ratio")
+EngData.EnableFilter()
+EngData.EnableFilter(Enable=False)
+EngData.EnableFilter()
+EngData.EnableFilter(Enable=False)
+matlProp11 = matl4.CreateProperty(
+    Name="Coefficient of Thermal Expansion",
+    Definition="Secant",
+    Behavior="Orthotropic",
+    Qualifiers={"Definition": "Secant", "Behavior": "Orthotropic"})
+matlProp11.Delete(
+    Definition="Secant",
+    Behavior="Isotropic")
+matlProp10.Delete(Behavior="Isotropic")
+matlProp12 = matl4.CreateProperty(
+    Name="Elasticity",
+    Behavior="Orthotropic",
+    Qualifiers={"Definition": "", "Behavior": "Orthotropic"})
+Save(Overwrite=True)
+matlProp11.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Orthotropic"},
+    Index=-1,
+    Variables=["Coefficient of Thermal Expansion X direction"],
+    Values=[["12.5 [C^-1]"]])
+matlProp11.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Orthotropic"},
+    Variables=["Coefficient of Thermal Expansion X direction"],
+    Values=[["0.000125 [C^-1]"]])
+matlProp11.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Orthotropic"},
+    Variables=["Coefficient of Thermal Expansion Y direction"],
+    Values=[["0.000184 [C^-1]"]])
+matlProp11.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Orthotropic"},
+    Variables=["Coefficient of Thermal Expansion Y direction"],
+    Values=[["0.000114 [C^-1]"]])
+matlProp11.SetData(
+    SheetName="Coefficient of Thermal Expansion",
+    SheetQualifiers={"Definition": "Secant", "Behavior": "Orthotropic"},
+    Variables=["Coefficient of Thermal Expansion Z direction"],
+    Values=[["0.00082 [C^-1]"]])
+matlProp12.SetVariableProperty(
+    VariableName="Young's Modulus X direction",
+    Property="Unit",
+    Value="GPa")
+matlProp12.SetVariableProperty(
+    VariableName="Young's Modulus Y direction",
+    Property="Unit",
+    Value="GPa")
+matlProp12.SetVariableProperty(
+    VariableName="Young's Modulus Z direction",
+    Property="Unit",
+    Value="GPa")
+matlProp12.SetData(
+    Index=-1,
+    Variables=["Young's Modulus X direction"],
+    Values=[["20.4 [GPa]"]])
+matlProp12.SetData(
+    Variables=["Young's Modulus Y direction"],
+    Values=[["18.4 [GPa]"]])
+matlProp12.SetData(
+    Variables=["Young's Modulus Z direction"],
+    Values=[["15 [GPa]"]])
+matlProp12.SetData(
+    Variables=["Poisson's Ratio XY"],
+    Values=[["0.11"]])
+matlProp12.SetData(
+    Variables=["Poisson's Ratio YZ"],
+    Values=[["0.09"]])
+matlProp12.SetData(
+    Variables=["Poisson's Ratio XZ"],
+    Values=[["0.14"]])
+Save(Overwrite=True)
