@@ -40,7 +40,7 @@
         <ArrayEntry Index="0">Structural Steel::ANSYS%:%:Disk%:%:General_Materials.xml::Structural Steel</ArrayEntry>
         <ArrayEntry Index="1">Aluminum Alloy::ANSYS%:%:Disk%:%:General_Materials.xml::Aluminum Alloy</ArrayEntry>
         <ArrayEntry Index="2">Copper Alloy::ANSYS%:%:Disk%:%:General_Materials.xml::Copper Alloy</ArrayEntry>
-        <ArrayEntry Index="3">PBT-GF30::ANSYS%:%:Disk%:%:C%:\Users\Beni\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\ENGD\EngineeringData.xml::PBT-GF30</ArrayEntry>
+        <ArrayEntry Index="3">PBT-GF30::ANSYS%:%:Disk%:%:C%:\Users\user\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\ENGD\EngineeringData.xml::PBT-GF30</ArrayEntry>
         <ArrayEntry Index="4">PBT-GF40::ANSYS%:%:Disk%:%:C%:\Users\user\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\ENGD\EngineeringData.xml::PBT-GF30 2</ArrayEntry>
         <ArrayEntry Index="5">SAC305::ANSYS%:%:Disk%:%:C%:\Users\user\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\ENGD\EngineeringData.xml::PBT-GF40 2</ArrayEntry>
         <ArrayEntry Index="6">FR40::ANSYS%:%:Disk%:%:C%:\Users\user\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\ENGD\EngineeringData.xml::SAC305 2</ArrayEntry>
@@ -86,43 +86,43 @@
       <Object Name="/Engineering Data/Material:PBT-GF40" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">PBT-GF40</object-name>
-        <member-data valType="String">{"DisplayText": "PBT-GF30 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "PBT-GF30 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:SAC305" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">SAC305</object-name>
-        <member-data valType="String">{"DisplayText": "PBT-GF40 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "PBT-GF40 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:FR40" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">FR40</object-name>
-        <member-data valType="String">{"DisplayText": "SAC305 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "SAC305 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:Si" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">Si</object-name>
-        <member-data valType="String">{"DisplayText": "PBT-GF40 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "PBT-GF40 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:Overmold" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">Overmold</object-name>
-        <member-data valType="String">{"DisplayText": "Si 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Si 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:Gap Filler 4000" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">Gap Filler 4000</object-name>
-        <member-data valType="String">{"DisplayText": "Overmold 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Overmold 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/Material:Gap Filler 4000 test" Version="1.0">
         <class-type valType="String">Material</class-type>
         <object-name valType="String">Gap Filler 4000 test</object-name>
-        <member-data valType="String">{"DisplayText": "Gap Filler 4000 2", "SourceFileReference": None}</member-data>
+        <member-data valType="String">{"DisplayText": "Gap Filler 4000 2", "SourceFileReference": $$d5727329-9bcc-4fbc-b7f7-03c5d997fc2b}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/MaterialProperty:Appearance" Version="2.0">
@@ -2086,8 +2086,8 @@
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">11131</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 11184, "Input": 11129, "Output": 11129}</last-modified-by-usage>
+      <last-updated valType="Int64">11228</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11303, "Input": 11226, "Output": 11226}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -2099,7 +2099,7 @@
       <Object Name="/Geometry/Geometry:GeometryDataObject" Version="1.0">
         <class-type valType="String">Geometry</class-type>
         <object-name valType="String">GeometryDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\SYS\DM\SYS.scdocx", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$855dc0bf-461e-4118-9bca-16fd62553d7d, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "78ed1f3e-11cf-4718-b4f5-ea7f3348ccd6", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$092d281e-a8fe-493a-a114-1d9e5d188de1": {"FilePathInDM": r"C:\Users\Beni\Desktop\Ansys\Raspberry_Pi\Raspberry_Pi.stp", "FilePathAfterRepair": r"C:\Users\Beni\Desktop\Ansys\Raspberry_Pi\Raspberry_Pi.stp", "IsFileRepaired": False, "CadSourceType": "Step"}, "$$855dc0bf-461e-4118-9bca-16fd62553d7d": {"FilePathInDM": r"C:\Users\Beni\Desktop\Rapberry_files\dp0\SYS\DM\SYS.scdocx", "FilePathAfterRepair": r"C:\Users\Beni\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\DM\SYS.scdocx", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\SYS\DM\SYS.scdocx", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$855dc0bf-461e-4118-9bca-16fd62553d7d, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "78ed1f3e-11cf-4718-b4f5-ea7f3348ccd6", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$092d281e-a8fe-493a-a114-1d9e5d188de1": {"FilePathInDM": r"C:\Users\Beni\Desktop\Ansys\Raspberry_Pi\Raspberry_Pi.stp", "FilePathAfterRepair": r"C:\Users\Beni\Desktop\Ansys\Raspberry_Pi\Raspberry_Pi.stp", "IsFileRepaired": False, "CadSourceType": "Step"}, "$$855dc0bf-461e-4118-9bca-16fd62553d7d": {"FilePathInDM": r"C:\Users\Beni\Desktop\Rapberry_files\dp0\SYS\DM\SYS.scdocx", "FilePathAfterRepair": r"C:\Users\user\Desktop\Ansys-Training\Rapberry_files\dp0\SYS\DM\SYS.scdocx", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
         <properties-setByUserFlag-data valType="String">["ObjectState"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Geometry/TransferData:Geometry" Version="1.0">
@@ -2192,15 +2192,25 @@
         <object-name valType="String">SCDataObject 16</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "78ed1f3e-11cf-4718-b4f5-ea7f3348ccd6"}</member-data>
       </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 17" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 17</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "78ed1f3e-11cf-4718-b4f5-ea7f3348ccd6"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 18" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 18</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "78ed1f3e-11cf-4718-b4f5-ea7f3348ccd6"}</member-data>
+      </Object>
     </Container>
     <Container Name="Model" Version="1.0">
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationModel</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 11174, "Input": 11159, "Output": 11159}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11301, "Input": 11296, "Output": 11296}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"MechanicalModel": 3005, "MechanicalMesh": 3005}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11131, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11228, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1.0">
@@ -2301,9 +2311,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 11158, "Input": 11158, "Output": 11158}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11245, "Input": 11158, "Output": 11246}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"SimulationSetup": 3006}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11131, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11228, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -2360,9 +2370,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10399, "Input": 10399, "Output": 11151}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10399, "Input": 10399, "Output": 11247}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"SimulationSolution": 3007, "SimulationSolutionDataInternal": 3007}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11131, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11228, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -2448,9 +2458,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10400, "Input": 10400, "Output": 11152}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10400, "Input": 10400, "Output": 11248}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"SimulationResults": 3008}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11131, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Engineering Data": 10156, "Geometry": 11228, "Model": 0, "Setup": 0, "Solution": 0, "Results": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
